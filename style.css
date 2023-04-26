@@ -1,23 +1,21 @@
-
-
 body {
     line-height: 1.4;
     font-family: 'Open Sans', sans-serif;
-    background-color: #fff;
+    background-color: #708e9d;
     color: #f5efef;
     font-size: 20px;
-    background-image: url("Greece.webp"); 
-    background-size: cover;
+    
     
     
 }
 .emailMe {
-    margin-top: 75px; */
+    margin-top: 75px; 
     position: relative;
     margin-top: 10%;
     color: #fff;
     text-shadow: 3px 3px 3px black;
     margin-bottom: 60px;
+    text-decoration: underline;
 }
 
 a:link,
@@ -47,11 +45,19 @@ a.demeure:hover {
 a.dood:hover {
     border-bottom: 5px solid #1B28E0;
 }
-
+.links {
+    display: flex;
+    justify-content: center;
+}
 .links a {
+    top: 0;
     font-weight: 700;
     border-bottom: 5px solid #fff;
     position: relative;
+    color: white;
+    padding: 10px;
+    
+   
 }
 
 .links a:hover {
@@ -63,10 +69,6 @@ a.dood:hover {
     margin-top: 30px;
     margin-bottom: 25px;
     padding-left: 40px;
-
-   
-
-
 
 }
 
@@ -99,8 +101,9 @@ a.dood:hover {
 h1 {
     font-size: 60px;
     padding-top: 5px;
-    color: #000;
+    color: white;
     font-weight: 700;
+    
 }
 
 div#colour {
@@ -200,15 +203,13 @@ div#colour {
 img {
     height: 30%;
     width: 20%;
-    padding: 0;
-    margin-bottom: 50px;
     border-radius: 50%;
     background-image: no-repeat;
     background-image: cover;
 }
 
 .emailMe {
-    margin-top: 75px; */
+    margin-top: 75px; 
     position: relative;
     margin-top: 10%;
     color: #fff;
@@ -219,6 +220,7 @@ img {
 .aboutMe {
     position: absolute;
    margin-top: -140px;
+   padding-left: 10px;
     color: rgb(255, 255, 255);
     text-shadow: 3px 3px 3px black; 
 
