@@ -4,18 +4,18 @@ body {
     background-color: #708e9d;
     color: #f5efef;
     font-size: 20px;
+    overflow-x: hidden;
     
     
     
 }
 .emailMe {
-    margin-top: 75px; 
     position: relative;
-    margin-top: 10%;
+    color: #fff;
+    text-decoration: underline;
+    margin: 2% 0 40px 0;
     color: #fff;
     text-shadow: 3px 3px 3px black;
-    margin-bottom: 60px;
-    text-decoration: underline;
 }
 
 a:link,
@@ -87,8 +87,10 @@ a.dood:hover {
 
 }
 
-.about {
-    font-size: 16px;
+.demetri {
+    /* display: flex;
+    flex-direction: column; */
+    font-size: 22px;
     margin: 20px 0;
     
 }
@@ -106,14 +108,14 @@ h1 {
     
 }
 
-div#colour {
+/* div#colour {
     width: 5%;
     background-color: #F3373B;
     position: fixed;
     top: 0;
     right: 0;
     bottom: 0;
-}
+} */
 
 .fade-in {
     -webkit-animation-fill-mode: both;
@@ -201,60 +203,48 @@ div#colour {
 }
 
 img {
-    height: 30%;
-    width: 20%;
+    height: 40vh;
+    width: auto;
     border-radius: 50%;
     background-image: no-repeat;
     background-image: cover;
 }
 
 .emailMe {
-    margin-top: 75px; 
-    position: relative;
-    margin-top: 10%;
-    color: #fff;
-    text-shadow: 3px 3px 3px black;
-    margin-bottom: 40px;
+
 
 }
 .aboutMe {
-    position: absolute;
-   margin-top: -140px;
+    /* position: absolute; */
+   /* margin-top: -140px; */
    padding-left: 10px;
     color: rgb(255, 255, 255);
     text-shadow: 3px 3px 3px black; 
 
 }
 
+ 
+@media only screen and (min-width: 576px) {
+    .aboutMe {
+        font-size: 24px;
+       
+    }
+}
 
-@media only screen and (min-width: 576px) {}
-    body {    
-     
-        background-color: #708e9d;
-     
-  }
-    
 
   @media only screen and (min-width: 768px) {
-    body {
-        background-color: #708e9d;
+    .aboutMe {
+        font-size: 24px;
+       
     }
   }
 
   @media only screen and (min-width: 1024px) {
-    body {
-        background-color: #708e9d;
+    
+    .aboutMe {
+        font-size: 24px;
+       
     }
-  }
-
-  @media only screen and (min-width: 1200px) {
-    body {
-        background-color: #708e9d;
-    }
-  }
-  /* @media only screen and (min-width: 100000px) {
-    body {
-        background-image: url("Greece.webp"); 
-      background-repeat: no-repeat;
-    } */
+  } 
+  
   
